@@ -2,6 +2,8 @@ import React from 'react';
 import kws from '../images/clients/kws.png';
 import geps from '../images/clients/geps.png';
 import protergia from '../images/clients/protergia.png';
+import ota from '../images/clients/ota.png';
+import vietan from '../images/clients/vietan.png';
 
 const clientImage = {
     height: '10rem',
@@ -24,11 +26,11 @@ const Clients = () => {
                 <div className="p-16" data-aos="fade-in" data-aos-delay="600">
                     <div className="grid sm:grid-cols-3 lg:grid-cols-3">
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
-                            <img src={kws} alt="client" />                           
+                            <img src={ota} alt="client" />                           
                         </div>
 
                         <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
-                            <img src={protergia} alt="client" />                            
+                            <img src={vietan} alt="client" />                            
                         </div> 
 
                         <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
